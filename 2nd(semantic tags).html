@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic tags</title>
+</head>
+<body>
+    <!-- Semantic tags => Gives some sense of that tag -->
+    <!-- Header used to create header of the page
+         - nav used to create nav bar 
+
+         main => used to create Body of the page 
+        Body of the webpage 
+            section 1
+            section 2
+            section 3
+        
+            section,div => used to create section of the page
+        footer => used to create footer of the page
+            contact, about us 
+     -->
+
+     <header>
+        This is header 
+        <nav>
+            <a href="#"> Home </a>
+            <a href="#"> Contact </a>
+        </nav>
+        <!-- In order to move within webpage we use # with id  -->
+     </header>
+     <main>
+        This is body of the page 
+        <section>
+            This is section 1 inside the body
+        </section>
+
+        <section> 
+            This is section 2 inside the body
+        </section>
+
+        <div>
+            This is div 1 inside the body
+        </div>
+
+     </main>
+
+     <footer>
+        <h3>This is footer tag</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat aspernatur, quisquam obcaecati, officiis facere consequuntur itaque id saepe minima odit suscipit voluptates quod harum error impedit alias dolore. Obcaecati, ducimus.</p>
+     </footer>
+
+     <!-- Adding videos onto html web page 
+        
+        Every boolean attribute will be set to true if its added 
+        if not added to the html element then it will be set to false
+
+        ByDefault it has true value 
+    -->
+     <video src="./video_preview_h264.mp4" width = "400"controls autoplay muted loop></video>
+
+     <!-- Audio tag => Controls attribute will show functionalities-->
+     <audio src="./horse.ogv" controls loop autoplay muted></audio>
+     
+     <!-- Iframes => Inline frame(web page)
+        it is used to have one webpage inside another     
+    
+        _self (default)
+        _parent attribute (opens in the parent frame)
+        _top (opens in the root frame)
+        _blank (opens in new tab)
+    -->
+    <!-- Iframes can be used in online payments, google authentication, ads, etc -->
+     <!-- <iframe src="/1st(Basics HTML).html" frameborder="1"></iframe>  -->
+
+    <iframe src="https://www.youtube.com/embed/7aUO7ou-Lm0" frameborder="0"></iframe>
+     
+    <img src="./dev_image.jpg" alt="" width="400">
+</body>
+</html>
+
+
